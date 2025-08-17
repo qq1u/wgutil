@@ -4,7 +4,7 @@ version = "0.0.1"
 authors = [
   { name="qq1u", email="609799548@qq.com" },
 ]
-description = "wg util"
+description = "wireguard util"
 readme = "README.md"
 requires-python = ">=3"
 dependencies = [
