@@ -68,8 +68,8 @@ def main():
             else:
                 default_json["subnet"] = args.subnet
 
-        if args.endpoint:
-            default_json["endpoint"] = args.endpoint
+        if args.public_ip:
+            default_json["public_ip"] = args.public_ip
 
         with open(default_path, "w") as f:
             json.dump(default_json, f, indent=True)
